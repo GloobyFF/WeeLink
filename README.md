@@ -1,6 +1,6 @@
-# Vlink
+# WeeLink
 
-Vlink is a Windows launcher for native PCVR streaming to Apple Vision Pro.
+WeeLink is a Windows launcher for native PCVR streaming to Apple Vision Pro.
 
 ## Download
 
@@ -21,16 +21,16 @@ This installer includes NVIDIA CloudXR components. Before publishing this file
 publicly, confirm that your NVIDIA CloudXR license allows redistribution of the
 included binaries.
 
-If redistribution is not allowed, publish a Vlink-only installer instead and
+If redistribution is not allowed, publish a WeeLink-only installer instead and
 ask users to install NVIDIA CloudXR Runtime separately.
 
 ## Install
 
 1. Download `VlinkSetup-0.5.0.exe`.
 2. Run the installer on the Windows PC that will host PCVR streaming.
-3. Start Vlink.
+3. Start WeeLink.
 4. Launch the Vision Pro client on the same network and pair with the PIN shown
-   in Vlink.
+   in WeeLink.
 
 ## Security
 
