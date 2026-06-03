@@ -8,12 +8,12 @@
   <style>
     :root {
       color-scheme: dark;
-      --bg: #080a0d;
+      --bg: #15171c;
       --ink: #f5f8fb;
       --muted: #aab5c2;
       --dim: #7f8a98;
-      --panel: rgba(18, 22, 28, .82);
-      --panel-strong: #12171e;
+      --panel: rgba(28, 32, 39, .86);
+      --panel-strong: #1b2027;
       --line: rgba(255, 255, 255, .13);
       --cyan: #55d8ff;
       --green: #a6f36f;
@@ -27,7 +27,8 @@
     html { scroll-behavior: smooth; }
     body {
       margin: 0;
-      background: var(--bg);
+      background:
+        linear-gradient(180deg, #181b21 0%, var(--bg) 38%, #12151a 100%);
       color: var(--ink);
       line-height: 1.5;
       letter-spacing: 0;
@@ -42,7 +43,7 @@
       inset: 0 0 auto;
       z-index: 20;
       border-bottom: 1px solid rgba(255, 255, 255, .09);
-      background: rgba(8, 10, 13, .72);
+      background: rgba(20, 23, 28, .78);
       backdrop-filter: blur(18px);
     }
     .nav-inner {
@@ -116,8 +117,8 @@
       isolation: isolate;
       border-bottom: 1px solid rgba(255, 255, 255, .1);
       background:
-        linear-gradient(90deg, rgba(8, 10, 13, .96) 0%, rgba(8, 10, 13, .78) 48%, rgba(8, 10, 13, .25) 100%),
-        linear-gradient(180deg, rgba(8, 10, 13, .08) 0%, rgba(8, 10, 13, .88) 100%),
+        linear-gradient(90deg, rgba(18, 21, 26, .9) 0%, rgba(18, 21, 26, .68) 48%, rgba(18, 21, 26, .18) 100%),
+        linear-gradient(180deg, rgba(18, 21, 26, .02) 0%, rgba(18, 21, 26, .78) 100%),
         url("Web/client/pic1.jpg") center right / cover no-repeat;
     }
     .hero::after {
@@ -201,7 +202,7 @@
 
     section { padding: 86px 0; }
     .band {
-      background: #0c1015;
+      background: #1a1e24;
       border-top: 1px solid rgba(255, 255, 255, .08);
       border-bottom: 1px solid rgba(255, 255, 255, .08);
     }
@@ -282,7 +283,7 @@
     }
     .video-stage {
       overflow: hidden;
-      background: #000;
+      background: #11151b;
     }
     .video-stage iframe {
       width: 100%;
@@ -319,7 +320,7 @@
       width: 100%;
       aspect-ratio: 16 / 9;
       object-fit: cover;
-      background: #111;
+      background: #171b21;
     }
     .shot figcaption {
       min-height: 94px;
@@ -509,7 +510,7 @@
         min-height: 88svh;
         padding-top: 96px;
         background:
-          linear-gradient(180deg, rgba(8, 10, 13, .7) 0%, rgba(8, 10, 13, .98) 70%),
+          linear-gradient(180deg, rgba(18, 21, 26, .56) 0%, rgba(18, 21, 26, .94) 72%),
           url("Web/client/pic1.jpg") center top / cover no-repeat;
       }
       .actions, .button { width: 100%; }
@@ -562,7 +563,7 @@
         <div class="actions" id="download">
           <a class="button primary" href="https://github.com/GloobyFF/WeeLink/releases/download/v1.2.2/WeeLinkSetup-1.2.2.exe">Download Windows Server</a>
           <a class="button secondary" href="#video">Watch Demo Video</a>
-          <a class="button secondary" href="https://apps.apple.com/app/id6768342275">Download Vision Pro Client</a>
+          <a class="button primary" href="https://apps.apple.com/app/id6768342275">Download Vision Pro Client</a>
         </div>
         <div class="hero-stats" aria-label="Product highlights">
           <div class="stat"><strong>CloudXR 6</strong><span>NVIDIA NVENC streaming path</span></div>
@@ -753,7 +754,7 @@
                 <small>Apple Vision Pro</small>
                 <h3>WeeLink Client</h3>
                 <p>visionOS client for pairing, game browsing, desktop controls, stream presets, and immersive playback.</p>
-                <a class="button secondary" href="https://apps.apple.com/app/id6768342275">Download on the App Store</a>
+                <a class="button primary" href="https://apps.apple.com/app/id6768342275">Download on the App Store</a>
               </div>
               <div class="file-line"><span>Availability</span><span>App Store</span></div>
             </article>
