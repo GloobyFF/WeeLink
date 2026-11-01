@@ -4,10 +4,10 @@ WeeLink is a Windows launcher for native PCVR streaming to Apple Vision Pro.
 
 ## Download
 
-Current release: **1.5.5**
+Current release: **1.6.0**
 
-- [Download WeeLinkSetup-1.5.5.exe](https://github.com/GloobyFF/WeeLink/releases/download/v1.5.5/WeeLinkSetup-1.5.5.exe)
-- [View release notes and SHA-256 checksum](https://github.com/GloobyFF/WeeLink/releases/tag/v1.5.5)
+- [Download WeeLinkSetup-1.6.0.exe](https://github.com/GloobyFF/WeeLink/releases/download/v1.6.0/WeeLinkSetup-1.6.0.exe)
+- [View release notes and SHA-256 checksum](https://github.com/GloobyFF/WeeLink/releases/tag/v1.6.0)
 
 ## Requirements
 
@@ -27,7 +27,7 @@ ask users to install NVIDIA CloudXR Runtime separately.
 
 ## Install
 
-1. Download `WeeLinkSetup-1.5.5.exe`.
+1. Download `WeeLinkSetup-1.6.0.exe`.
 2. Run the installer on the Windows PC that will host PCVR streaming.
 3. Start WeeLink.
 4. Launch the Vision Pro client on the same network and complete pairing.
